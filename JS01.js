@@ -37,6 +37,43 @@ console.log(lastname);
 // example    >>var 8value=8>>invalid wrong    ===   var value8=8;>>valid right
 
 var value8 = 8;
-console.log(value8 - 98);
+console.log(value8 - 90);
 
-// so in the above example we see that we can add ,sub , multiply and divide with numbers
+console.log(value8 + 90);
+
+console.log(value8 * 90);
+
+console.log(value8 / 90);
+
+// so in the above example we see that we can add ,sub , multiply and divide with number
+
+// If we have to find the power of a number so we have to type multiply(**) twice with decalred value to find the power of that number
+var value01 = 3;
+
+console.log(value01 ** 8);
+// for square root
+
+console.log(value01 ** 0.5);
+
+// we can just use underscore and dollar symbol in variables
+
+// FOr underscore
+var car_name = "toyota";
+
+console.log(car_name);
+
+// we can also type underscore at the start
+
+var _carname = "honda";
+console.log(_carname);
+
+// For Dollar $
+
+var car$name = "mehran";
+
+console.log(car$name);
+
+// we can also use dollar at the beginning
+
+var $carname = "alto";
+console.log($carname);
